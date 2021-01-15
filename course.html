@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/test.ico" type="image/x-icon">
+    <title>VIP access</title>
+    <!-- BOOTSTRAP CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/course.css" />
+    <!---------------------MD-BOOTSTRAP---------------------->
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script src="./Validacion.js"></script>
+
+  <body>
+    <!-- navbar -->
+    <nav class="fixed-top
+    navbar navbar-expand-lg navbar-dark scrolling-navbar">
+           <div class="container">
+                   <a class="navbar-brand" href="/"><img src="img/logopag.png" alt="logo" style="width: 70%;"></a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
+                   <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav ml-auto">
+                       <li class="nav-item">
+                         <a class="nav-link" href="#">Instagram</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="#">Facebook</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" id="logout" href="#">Logout</a>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>            
+           </div>
+         </nav>
+    <!-- Navbar end -->
+
+<!--Main Header -->
+    <header class="main-header">
+            <!-- Titulo principal -->
+        <h2 class="text-white azonix">Programa Especial</h2>
+        <a data-scroll href="#content" class="btn btn-outline-deep-orange">Comienza</a>
+
+
+    </header>
+<!-- Contenido principal -->
+    <main>
+
+        <div class="container my-3">
+            <div class="row">
+                <!-- Sidebar -->
+                <aside class="col-md-4 col-sm-12 aside-main">
+                 <div class="solid">
+                    <h3 class="text-white text-center p-3">Titulo de sidebar</h3>
+                    <!-- acordiones -->
+                    
+                    <!-- este div contiene todos los acordiones -->
+                    <div class="accordion py-3" id="accordionExample">
+                        <div class="card">
+                          <div class="acord-header" id="headingOne">
+                            <h2 class="mb-0 text-center">
+                              <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                starting Point
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="acord-body">
+                              <a href="#content">How to?</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                            <div class="acord-header" id="headingOne">
+                              <h2 class="mb-0 text-center">
+                                <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
+                                 0 to action
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="acord-body">
+                                <a href="#">4 semanas</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="acord-header" id="headingOne">
+                              <h2 class="mb-0 text-center">
+                                <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                                  Action to condiction
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsethree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="acord-body">
+                                <a href="#" >Link a x cosa</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="acord-header" id="headingOne">
+                              <h2 class="mb-0 text-center">
+                                <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                  Condiction to Basic
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsefour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="acord-body">
+                                <a href="#">Link a x cosa</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                </aside>
+                <!-- Contenido -->
+                <section id="content" class="col-md-8 col-sm-12 main-content">
+                   <h3>Titulo del Programa</h3>
+                    <div class="embed-responsive embed-responsive-16by9 my-5">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
+                      </div>
+                                          <div class="embed-responsive embed-responsive-16by9 my-5">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9 my-5">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9 my-5">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
+                      </div>
+
+
+
+                </section>
+            </div>
+        </div>
+
+
+
+    </main>
+
+  </body>
+  <!--BOOTSTRAP JAVASCRIPT-->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  <!--------------MD-BOOTSTRAP-------------->
+  <!-- JQuery -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  ></script>
+  <!-- Bootstrap tooltips -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+  ></script>
+  <!-- Bootstrap core JavaScript -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+  ></script>
+  <!-- MDB core JavaScript -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+  ></script>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+  </script>
+
+
+    <script>  
+      const logout = document.getElementById("logout");
+      logout.addEventListener("click", () => {
+        sessionStorage.removeItem("token");
+        window.location = "index.html";
+      });
+    </script>
+</html>
