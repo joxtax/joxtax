@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/test.ico" type="image/x-icon">
     <title>Joxtax</title>
-    <!-- BOOTSTRAP CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!--CUSTOM CSS-->
+  
+     <!--CUSTOM CSS-->
     <link rel="stylesheet" href="css/main.css">
     <!---------------------MD-BOOTSTRAP---------------------->
     <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
 </head>
-<body>
+<body id="inicio">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-dark scrolling-navbar">
+        <a class="navbar-brand" href="#inicio">
+          <img src="img/logopag.png" alt="logo" style="width: 70%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#programa">Programa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faqs">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">Login</a>
+            </li>
+          </ul>
+    </div>
+  </nav>
+<!-- End of navigation -->
 
-
-<!--NAVIGATION-->
-    <nav class="fixed-top
- navbar navbar-expand-lg navbar-dark scrolling-navbar">
-        <div class="container">
-                <a class="navbar-brand" href="/"><img src="img/logopag.png" alt="logo" style="width: 70%;"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#programa">Programa<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">Acerca de</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#faqs">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Login.html">Login</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>            
-        </div>
-      </nav>
 
       <!--HEADER-->
       <header class="main-header">
         <div class="container">
             <div class="center">
                 <div class="col-md-12 text-center justify-content-center align-self-center text-white py-5 centrado">                       
-                    </div>
                 </div>
             </div>
         </div>
@@ -120,7 +116,7 @@
 
 
      
-            <img src="/img/FotohumanaXD.jpg" alt="" class="img-fluid my-5 z-depth-1-half">
+            <img src="../img/FotohumanaXD.jpg" alt="" class="img-fluid my-5 z-depth-1-half">
         </div>
         <div class="col-md-6 mt-5 text-white">
             <h3 class="h3">¿Quién soy?</h3>
@@ -243,33 +239,29 @@
                 <div class="card-body">
                     <h3 class="text-center dark-text"><b>Contáctame</b></h3>
                     <hr>
-                    <form>
+                    <form id="contact" onsubmit="(this)=>{ this.preventDefault }">
                         <div class="md-form">
                             <i class="fas fa-user prefix dark-text"></i>
-                            <input type="text" id="nombre" class="form-control">
+                            <input type="text" id="nombre" class="form-control" name="nombre">
                             <label for="nombre">Nombre:</label>
                         </div>
 
                         <div class="md-form">
                             <i class="fas fa-envelope prefix dark-text"></i>
-                            <input type="email" id="email" class="form-control">
+                            <input type="email" id="email" class="form-control" name="email">
                             <label for="email">Email:</label>
                         </div>
 
                         <div class="md-form">
                             <i class="far fa-comment-alt prefix dark-text"></i>
-                            <textarea id="texto" class="md-textarea"></textarea>
+                            <textarea id="texto" class="md-textarea" name="mensaje"></textarea>
                             <label for="texto">Ingresa tu mensaje:</label>
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-dark">Enviar</button>
+                            <button class="btn btn-dark" onclick="sendEmail(this)">Enviar</button>
                         </div>
                 
-                    </form>
-                
-                
-                
-                
+                    </form>               
                         </div>
                     </div>
                 </div>
@@ -282,29 +274,10 @@
 </section>
 
 
-
-
-
       <!--FOOTER-->
 <footer class="bg-dark text-white">
-
-
 <div class="container">
   <div class="row text-reset text-uppercase d-flex align-items-center justify-content-center">
-        <!-- Menu 1
-        <ul class="col-4 list-unstyled">
-          <li class="font-weight-bold text-uppercase">Resource</li>
-          <li><a href="" class="text-reset">Link 1</a></li>
-          <li><a href="" class="text-reset">Link 2</a></li>
-          <li><a href="" class="text-reset">Link 3</a></li>
-        </ul> -->
-        <!-- Menu 2
-        <ul class="col-4 list-unstyled">
-          <li class="font-weight-bold text-uppercase">Quick links</li>
-          <li><a href="" class="text-reset">Link 1</a></li>
-          <li><a href="" class="text-reset">Link 2</a></li>
-          <li><a href="" class="text-reset">Link 3</a></li>
-        </ul> -->
         <!--Menu 3 redes sociales-->
         <ul class="list-unstyled mt-3">
         <!--Instagram-->
@@ -314,28 +287,18 @@
           <!--Youtube-->
           <a href="https://www.youtube.com/channel/UCIwCd1dvfVDUK_6mW-LC8gA" target="_blank" class="text-reset"><i class="fab fa-youtube fa-fw fa-lg mr-1 red-text"></i></a></li>
         </ul>
-</div>
+  </div>
   <!--logofooter-->
     <nav class="row">
         <a href="#" class="img-fluid my-1 col-12 text-center text-uppercase d-flex justify-content-center">
-        <img src="img/logopag.png" alt="logo" class="" style="width: 10%;">
+        <img src="img/logopag.png" alt="logo" class="img-fluid d-none d-sm-block" style="width: 10%;">
         </a>
     </nav>
-<div class="d-flex justify-content-center">
-  <p style="font-size: 15px;">Copyright &copy;2021 JoxtaxCalisthenic</p>
-</div>
+      <div class="d-flex justify-content-center">
+        <p style="font-size: 15px;">Copyright &copy;2021 JoxtaxCalisthenic</p>
+      </div>
 </footer>
 
-
-
-
-
-
-
-    <!--BOOTSTRAP JAVASCRIPT-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <!--------------MD-BOOTSTRAP-------------->
 <!-- JQuery -->
@@ -346,9 +309,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-</body>
-</html>
-
 <!---- libreria scroll--->
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
 <script>
@@ -357,3 +317,21 @@ speed: 500,
 speedAsDuration: true
 });
 </script>
+<script>
+    function sendEmail(e){
+    e.preventDefault;
+    const name = document.getElementById('nombre');
+    const email = document.getElementById('email');
+    const texto = document.getElementById('texto');
+    const mensaje = `De: ${name.value} \n Correo: ${email.value} \n Mensaje: ${texto.value}`;
+    var mailToLink = "mailto:jesusmanuelmorenomantilla@gmail.com?body=" + encodeURIComponent(mensaje);
+    console.log(mensaje)
+    window.open(mailToLink);
+    alert('Mensaje enviado');
+
+  }
+</script>
+</body>
+</html>
+
+

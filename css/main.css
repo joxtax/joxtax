@@ -1,5 +1,5 @@
 :root {
-    --bgjoxtax: url(/img/joxtaxcity.png);
+    --bgjoxtax: url(../img/joxtaxcity.png);
     --navtransparente: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgb(30, 39, 46, 0.2), rgb(0, 0, 0, .1));
     --linea3d: 2px 2px 5px #000;
     --degradadoperron: linear-gradient(to right, rgb(0, 0, 0, .95), rgb(30, 39, 46), rgb(0, 0, 0, .95));
