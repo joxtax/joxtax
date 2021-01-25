@@ -117,7 +117,6 @@
  <div class="col-md-6 my-100">
 
 
-     
             <img src="./img/FotohumanaXD.jpg" alt="" class="img-fluid my-5 z-depth-1-half">
         </div>
         <div class="col-md-6 mt-5 text-white">
@@ -241,7 +240,7 @@
                 <div class="card-body">
                     <h3 class="text-center dark-text"><b>Contáctame</b></h3>
                     <hr>
-                    <form id="contact" onsubmit="(this)=>{ this.preventDefault }">
+                    <form id="contact" onsubmit="sendEmail(this)">
                         <div class="md-form">
                             <i class="fas fa-user prefix dark-text"></i>
                             <input type="text" id="nombre" class="form-control" name="nombre">
@@ -260,7 +259,7 @@
                             <label for="texto">Ingresa tu mensaje:</label>
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-dark" onclick="sendEmail(this)">Enviar</button>
+                            <button class="btn btn-dark" onclick="">Enviar</button>
                         </div>
                 
                     </form>               
@@ -321,6 +320,7 @@ speedAsDuration: true
 </script>
 <script>
     function sendEmail(e){
+      console.log(e)
     e.preventDefault;
     const name = document.getElementById('nombre');
     const email = document.getElementById('email');

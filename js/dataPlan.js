@@ -22,11 +22,34 @@ const Planes = [
     ],
   },
   {
-    name: "How to push up",
+    name: "Documentacion",
+    id: "Documentacion",
+    article: true,
+    articles: [
+      {
+        name: "how to make a push up",
+        description:
+          "     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?",
+        image: true,
+        imgUrl: "./img/city.png",
+      },
+      {
+        name: "subtitulo 2",
+        description:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?",
+      },
+      {
+        description:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?",
+      },
+    ],
+  },
+  {
+    name: "3ra subSeccion",
     id: "Plan1",
     videos: [
       {
-        name: "how to make a push up",
+        name: "Ejemplo de sub secciones con videos",
         url: "https://www.youtube.com/embed/sw_qH2IymP4",
         description: "the push up is the best",
       },
@@ -42,7 +65,6 @@ const Planes = [
       },
     ],
   },
-
   // Plan 2: 0 to action
   {
     name: "0 to action",
@@ -62,6 +84,25 @@ const Planes = [
         name: "I'm bored: my life story",
         url: "https://www.youtube.com/embed/sw_qH2IymP4",
         description: "Quiero hamburguesas",
+      },
+    ],
+  },
+  {
+    name: "Tablas de rutinas (articulos)",
+    id: "Tablas",
+    article: true,
+    articles: [
+      {
+        name: "Tablas de rutinas",
+        description:
+          "Esta es la descripcion de algo que tiene que ver con articulos",
+      },
+      {
+        name: "un subtitulo",
+        description:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?",
+        image: true,
+        imgUrl: "./img/joxtaxcity.png",
       },
     ],
   },
