@@ -3,18 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/test.ico" type="image/x-icon">
-    <title>VIP access</title>
-    <!-- BOOTSTRAP CSS-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+    <title>Joxtax Web</title>
     <!--CUSTOM CSS-->
     <link rel="stylesheet" href="css/course.css" />
     <!---------------------MD-BOOTSTRAP---------------------->
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
@@ -26,35 +20,32 @@
       rel="stylesheet"
     />
   </head>
-  <script src="./Validacion.js"></script>
 
   <body>
+    <div id="loader" class="loader show">
+      <h1 class="azonix deep-orange-text">0 to <span class="text-white">basic</span></h1> <br>
+      <p class="preloader"></p>
+    </div>
     <!-- navbar -->
-    <nav class="fixed-top
-    navbar navbar-expand-lg navbar-dark scrolling-navbar">
-           <div class="container">
-                   <a class="navbar-brand" href="/"><img src="img/logopag.png" alt="logo" style="width: 70%;"></a>
-                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                       <span class="navbar-toggler-icon"></span>
-                     </button>
-                   <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav ml-auto">
-                       <li class="nav-item">
-                         <a class="nav-link" href="#">Instagram</a>
-                       </li>
-                       <li class="nav-item">
-                         <a class="nav-link" href="#">Facebook</a>
-                       </li>
-                       <li class="nav-item">
-                         <a class="nav-link" id="logout" href="#">Logout</a>
-                       </li>
-                     </ul>
-                   </div>
-                 </div>            
-           </div>
-         </nav>
-    <!-- Navbar end -->
-
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#inicio">
+        <img src="img/logopag.png" alt="logo" style="width: 70%;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <!--WhatsApp-->
+            <a href="https://chat.whatsapp.com/Do2YszLACcV8F4PrPS22jy" target="_blank " >Grupo privado<i class="fab fa-whatsapp fa-fw fa-lg my-2 green-text p-2"></i></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link p-3" id="logout" style="padding: 5px;" href="#" >Logout</a>
+            </li>
+        </ul>
+  </div>
+</nav>
 <!--Main Header -->
     <header class="main-header">
             <!-- Titulo principal -->
@@ -64,14 +55,14 @@
 
     </header>
 <!-- Contenido principal -->
-    <main>
+    <main id="main">
 
-        <div class="container my-3">
+        <div class="container my-2 py-2">
             <div class="row">
                 <!-- Sidebar -->
-                <aside class="col-md-4 col-sm-12 aside-main">
-                 <div class="solid">
-                    <h3 class="text-white text-center p-3">Titulo de sidebar</h3>
+                <aside class="col-md-4 col-sm-12 aside-main mt-5 pt-5">
+                 <div class="solid fixed">
+                    <h3 class="text-white text-center p-3">Contenido</h3>
                     <!-- acordiones -->
                     
                     <!-- este div contiene todos los acordiones -->
@@ -79,16 +70,24 @@
                         <div class="card">
                           <div class="acord-header" id="headingOne">
                             <h2 class="mb-0 text-center">
-                              <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                starting Point
+                              <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1.- Punto de partida
                               </button>
                             </h2>
                           </div>
                       
-                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+
                             <div class="acord-body">
-                              <a href="#content">How to?</a>
+                              <a href="#content" data-section="0" onclick="changeSection(this)">How to?</a>
                             </div>
+                            <div class="acord-body">
+                              <a href="#content" data-section="1" onclick="changeSection(this)">How to?</a>
+                            </div>
+                            <div class="acord-body">
+                              <a href="#content" data-section="0" onclick="changeSection(this)">How to?</a>
+                            </div>
+
                           </div>
                         </div>
                         <div class="card">
@@ -102,7 +101,7 @@
                         
                             <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                               <div class="acord-body">
-                                <a href="#">4 semanas</a>
+                                <a href="#content" data-section="2" onclick="changeSection(this)">4 semanas</a>
                               </div>
                             </div>
                           </div>
@@ -117,7 +116,7 @@
                         
                             <div id="collapsethree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                               <div class="acord-body">
-                                <a href="#" >Link a x cosa</a>
+                                <a href="#content" data-section="2" onclick="changeSection(this)" >Link a x cosa</a>
                               </div>
                             </div>
                           </div>
@@ -132,57 +131,74 @@
                         
                             <div id="collapsefour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                               <div class="acord-body">
-                                <a href="#">Link a x cosa</a>
+                                <a href="#content" data-section="3" onclick="changeSection(this)">Link a x cosa</a>
                               </div>
                             </div>
                           </div>
+                          
                       </div>
                     </div>
-
                 </aside>
                 <!-- Contenido -->
-                <section id="content" class="col-md-8 col-sm-12 main-content">
-                   <h3>Titulo del Programa</h3>
-                    <div class="embed-responsive embed-responsive-16by9 my-5">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
-                      </div>
-                                          <div class="embed-responsive embed-responsive-16by9 my-5">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
-                      </div>
-                      <div class="embed-responsive embed-responsive-16by9 my-5">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
-                      </div>
-                      <div class="embed-responsive embed-responsive-16by9 my-5">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sw_qH2IymP4" ></iframe>
-                      </div>
-
-
-
+                <section id="content" class="col-md-8 col-sm-12 main-content py-5">
+                   <div id="root">
+                    <!-- El contenido se ingresa automaticamente desde el javascript -->
+                    <h3>Bienvenidos</h3>
+                   </div>
                 </section>
             </div>
         </div>
-
-
-
     </main>
 
+<!--FOOTER-->
+<footer class="bg-dark text-white">
+
+
+  <div class="container">
+    <div class="row text-reset text-uppercase d-flex align-items-center justify-content-center">
+          <!--Menu 3 redes sociales-->
+          <ul class="list-unstyled mt-3">
+          <!--Instagram-->
+            <li class="d-flex justify-content-between">
+              <a href="https://www.instagram.com/joxtax/" target=_blank class="text-reset">
+              <i class="fab fa-instagram fa-fw fa-lg mr-1 pink-text"></i></a>
+            <!--Youtube-->
+            <a href="https://www.youtube.com/channel/UCIwCd1dvfVDUK_6mW-LC8gA" target="_blank" class="text-reset"><i class="fab fa-youtube fa-fw fa-lg mr-1 red-text"></i></a></li>
+          </ul>
+  </div>
+    <!--logofooter-->
+      <nav class="row">
+          <a href="#">
+          <img src="./img/logopag.png" alt="logo" class="img-fluid d-none d-sm-block" style="width: 10%;">
+          </a>
+      </nav>
+  <div class="d-flex justify-content-center">
+    <p style="font-size: 15px;">Copyright &copy;2021 JoxtaxCalisthenic</p>
+  </div>
+  </footer>
+
+
   </body>
-  <!--BOOTSTRAP JAVASCRIPT-->
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"
-  ></script>
+
+  <script>
+      window.onload = function () {
+      const token = sessionStorage.getItem("token");
+      const permisos = token === "JoxtaxIniciado";
+      if (!permisos) {
+       window.location = "404.html";
+       }
+        setTimeout(()=>{
+          document.getElementById('loader').classList.remove('show')
+        document.getElementById('loader').classList.add('hide');
+        setTimeout(()=>{
+         const loader =  document.getElementById('loader');
+         const padre = loader.parentNode;
+         padre.removeChild(loader);
+        }, 2000)
+        }, 3000)
+      }
+  </script>
+
   <!--------------MD-BOOTSTRAP-------------->
   <!-- JQuery -->
   <script
@@ -205,7 +221,7 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
   ></script>
 
-
+<!-- Scroll -->
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
   <script>
       var scroll = new SmoothScroll('a[href*="#"]', {
@@ -214,12 +230,17 @@
 });
   </script>
 
-
+<!-- Pagina Protegida por el login -->
     <script>  
       const logout = document.getElementById("logout");
       logout.addEventListener("click", () => {
         sessionStorage.removeItem("token");
         window.location = "index.html";
       });
+    </script>
+
+  <!-- Planes de videos -->
+    <script src="js/dataPlan.js"></script>
+    <script src="js/AutoLoadPage.js"> 
     </script>
 </html>
