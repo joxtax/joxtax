@@ -18,7 +18,12 @@
   --bgfooter: url(../img/negroperron.png);
   /* Yisus Variables */
   --bgMainHeader: url(../img/city.png);
-  --solidOne: linear-gradient(to right, rgb(0, 0, 0, .95), rgb(30, 39, 46), rgb(0, 0, 0, .95));
+  --solidOne: linear-gradient(
+    to right,
+    rgb(0, 0, 0, 0.95),
+    rgb(30, 39, 46),
+    rgb(0, 0, 0, 0.95)
+  );
   --solidtwo: rgb(43, 55, 65);
 }
 
@@ -45,11 +50,11 @@
 @font-face {
   font-family: "azonix";
   src: url(../Fuentes/Azonix.otf);
-  }
+}
 
-  .azonix {
-    font-family: "azonix";
-    src: var(--azonix);
+.azonix {
+  font-family: "azonix";
+  src: var(--azonix);
 }
 
 .loader {
@@ -168,5 +173,3 @@
 footer {
   background: var(--bgfooter);
 }
-
-

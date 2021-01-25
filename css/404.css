@@ -1,87 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  :root {
-    --bgCity: url(../img/ladrilloperron.png);
-  }
-  
-  @font-face {
-    font-family: "azonix";
-    src: url(../Fuentes/Azonix.otf);
-    }
-  
-    .azonix {
-      font-family: "azonix";
-      src: url(/Fuentes/Azonix.otf);
-    }
-  
-  body {
-    background: var(--bgCity);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: inherit;
-    background-repeat: no-repeat;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  form {
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 400px;
-    height: 350px;
-    padding: 20px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-  form h3 {
-    color: white;
-  }
-  .form-control {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-  }
-  .form-control label {
-    left: 0;
-    padding: 5px;
-  }
-  .form-control input {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.301);
-    color: white;
-    outline-style: none;
-    border: 1px solid rgba(255, 255, 255, 0.165);
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  form button,
-  form a {
-    background: #000000;
-    color: white;
-    border: 1px solid #4d4d4d69;
-    border-radius: 10px;
-    padding: 10px 20px;
-  }
-  
-  footer{
-  
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-    background: url(/img/negroperron.png);
-    color: white;
-    text-align: center;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bgCity: url(../img/ladrilloperron.png);
+}
+
+@font-face {
+  font-family: "azonix";
+  src: url(../Fuentes/Azonix.otf);
+}
+
+.azonix {
+  font-family: "azonix";
+  src: url(../Fuentes/Azonix.otf);
+}
+
+body {
+  background: var(--bgCity);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+form h3 {
+  color: white;
+}
+.form-control {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.form-control label {
+  left: 0;
+  padding: 5px;
+}
+.form-control input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.301);
+  color: white;
+  outline-style: none;
+  border: 1px solid rgba(255, 255, 255, 0.165);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form button,
+form a {
+  background: #000000;
+  color: white;
+  border: 1px solid #4d4d4d69;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: url(/img/negroperron.png);
+  color: white;
+  text-align: center;
+}
