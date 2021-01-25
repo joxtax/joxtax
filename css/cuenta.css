@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "azonix";
-  src: url(../Fuentes/Azonix.otf);
+  src: url(../fuentes/Azonix.otf);
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 .Fuente {
   font-family: "azonix";
-  src: url(../Fuentes/Azonix.otf);
+  src: url(../fuentes/Azonix.otf);
   color: white;
 }
 
