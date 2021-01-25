@@ -9,13 +9,13 @@
 
 @font-face {
   font-family: "azonix";
-  src: url(../Fuentes/Azonix.otf);
-  }
+  src: url(../fuentes/Azonix.otf);
+}
 
-  .azonix {
-    font-family: "azonix";
-    src: url(../Fuentes/Azonix.otf);
-  }
+.azonix {
+  font-family: "azonix";
+  src: url(../fuentes/Azonix.otf);
+}
 
 body {
   background: var(--bgCity);
@@ -75,8 +75,7 @@ form a {
   padding: 10px 20px;
 }
 
-footer{
-
+footer {
   position: fixed;
   left: 0px;
   bottom: 0px;

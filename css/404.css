@@ -9,12 +9,12 @@
 
 @font-face {
   font-family: "azonix";
-  src: url(../Fuentes/Azonix.otf);
+  src: url(../fuentes/Azonix.otf);
 }
 
 .azonix {
   font-family: "azonix";
-  src: url(../Fuentes/Azonix.otf);
+  src: url(../fuentes/Azonix.otf);
 }
 
 body {
