@@ -100,7 +100,7 @@ const Planes = [
       {
         name: "un subtitulo",
         description:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?",
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum <br/> <b>incidunt</b> similique aliquid ut distinctio?     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum modi iure illum! Iste dignissimos aut voluptas illum nihil aliquam modi reiciendis rerum adipisci, corrupti, eum incidunt similique aliquid ut distinctio?",
         image: true,
         imgUrl: "./img/joxtaxcity.png",
       },
