@@ -1,24 +1,13 @@
 const users = [
   {
-    user: "joxtaxt1@gmail.com",
-    password: 1234,
+    user: "hankot",
+    password: "jxtMoreno01",
   },
   {
-    user: "hankot2@gmail.com",
-    password: 1234,
+    user: "joxtax",
+    password: "padre",
   },
-  {
-    user: "angela",
-    password: 0000,
-  },
-  {
-    user: "MAma",
-    password: "hola mundo",
-  },
-    {
-    user: "mama",
-    password: "admin",
-  },
+  
 ];
 
 /////Login logic

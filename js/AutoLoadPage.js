@@ -3,7 +3,7 @@
 // traigo la el contenido principal
 let mainSection = document.getElementById("content");
 
-// Esta funcion super perrona que acabo de hacer remplaca a react. en tu cara mark zuckerberg
+// Esta funcion super perrona que acabo de hacer remplaza a react. en tu cara mark zuckerberg
 
 // Creo un arreglo de secciones tantos planes haya
 const sections = Planes.map((plan) => {
@@ -13,7 +13,7 @@ const sections = Planes.map((plan) => {
   const title = document.createElement("h2"); //El encabezado de toda la seccion
   element.className = "py-3 content-main";
   title.textContent = plan.name; //El contenido del titulo
-  title.className = "title-section";
+  title.className = "title-section " + plan.id;
   element.appendChild(title);
   if (plan.article) {
     // Recorro los articulos de esta seccion para crear un arreglo de articulos
@@ -25,7 +25,7 @@ const sections = Planes.map((plan) => {
       articleTitle.textContent = article.name; //El contenido del titulo
       articleContainer.appendChild(articleTitle);
       const articleDesc = document.createElement("p"); //Creo la descripcion del article
-      articleDesc.textContent = article.description;
+      articleDesc.innerHTML = article.description;
       articleContainer.appendChild(articleDesc);
       if (article.image) {
         const img = document.createElement("img");
@@ -56,7 +56,7 @@ const sections = Planes.map((plan) => {
       videoDiv.appendChild(iframeVideo);
       VideoContainer.appendChild(videoDiv);
       const videoDesc = document.createElement("p"); //Creo la descripcion del video
-      videoDesc.textContent = video.description;
+      videoDesc.innerHTML = video.description;
       VideoContainer.appendChild(videoDesc);
       return VideoContainer; //Y retorno todo el contenedor ya creado
     });
