@@ -24,10 +24,10 @@
   </head>
 
   <body>
-    <div id="loader" class="loader show">
+   <!-- <div id="loader" class="loader show">
       <h1 class="azonix deep-orange-text">0 to <span class="text-white">basic</span></h1> <br>
       <p class="preloader"></p>
-    </div>
+    </div> -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-dark scrolling-navbar">
       <a class="navbar-brand" href="#inicio">
@@ -59,54 +59,60 @@
 <!-- Contenido principal -->
     <main id="main">
 
-        <div class="container my-2 py-2">
+        <div class="container  my-2 py-2">
             <div class="row">
                 <!-- Sidebar -->
-                <aside class="col-md-4 col-sm-12 aside-main mt-5 pt-5">
+                <aside class="col-md-4 col-sm-12 aside-main  mt-5 pt-5">
                  <div class="solid fixed">
-                    <h3 class="text-white text-center p-3">Contenido</h3>
+                    <h3 class="text-white p-3 text-center barrawhite">Contenido</h3>
                     <!-- acordiones -->
                     
                     <!-- este div contiene todos los acordiones -->
-                    <div class="accordion py-3" id="accordionExample">
+                    <div class="accordion py-3 #212121 " id="accordionExample">
                         <div class="card">
                           <div class="acord-header" id="headingOne">
                             <h2 class="mb-0 text-center">
-                              <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                1.- Empieza aquí
+                              <button class="btn btn-link bt-dark text-white btn-block  collapsed lv" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="" aria-controls="collapseOne">
+                                Empieza aquí
                               </button>
                             </h2>
                           </div>
                       
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 
-                            <div class="acord-body">
-                              <a href="#content" data-section="0" onclick="changeSection(this) "class="barrawhite">Introducción: primeros pasos</a>
+                            <div class="acord-body barrawhite">
+                              <a href="#content" data-section="0" onclick="changeSection(this) "class="">Introducción: primeros pasos</a>
                             </div>
-                            <div class="acord-body">
-                              <a href="#content" data-section="1" onclick="changeSection(this) "class="barrawhite">Conceptos Básicos</a>
+                            <div class="acord-body barrawhite">
+                              <a href="#content" data-section="1" onclick="changeSection(this) "class="responsive-font-size">Conceptos Básicos</a>
                             </div>
-                            <div class="acord-body">
-                              <a href="#content" data-section="2" onclick="changeSection(this)" class="barrawhite">Como aplicar la sobrecarga progresiva</a>
+                            <div class="acord-body barrawhite">
+                              <a href="#content" data-section="2" onclick="changeSection(this)" class="">Como aplicar la sobrecarga progresiva</a>
                             </div>
+  
+                            <!-- posición 3: RECUPERACIÓN-->
+                            <div class="acord-body barrawhite">
+                              <a href="#content" data-section="3" onclick="changeSection(this)" class="">Recuperación</a>
+                            </div>
+
 
                           </div>
                         </div>
                         <div class="card">
                             <div class="acord-header" id="headingOne">
                               <h2 class="mb-0 text-center">
-                                <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
-                                 0 to action
+                                <button class="btn btn-link text-white btn-block text-center collapsed lv" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
+                                 How to
                                 </button>
                               </h2>
                             </div>
                         
                             <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                              <div class="acord-body">
-                                <a href="#content" data-section="3" onclick="changeSection(this)">Videos</a>
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="4" onclick="changeSection(this)">Moverte</a>
                               </div>
-                              <div class="acord-body">
-                                <a href="#content" data-section="4" onclick="changeSection(this)">articulos</a>
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="5" onclick="changeSection(this)">Calentar y estirar</a>
                               </div>
                             </div>
                           </div>
@@ -114,31 +120,62 @@
                             <div class="acord-header" id="headingOne">
                               <h2 class="mb-0 text-center">
                                 <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
-                                  Action to condiction
+                                  <strong class='lv deep-orange-text'>0 TO <span class='text-white'>BASIC</span></strong>
                                 </button>
                               </h2>
                             </div>
                         
                             <div id="collapsethree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                              <div class="acord-body">
-                                <a href="#content" data-section="5" onclick="changeSection(this)" >Link a x cosa</a>
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="6" onclick="changeSection(this)" >0</a>
+                              </div>
+                            
+                            
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="7" onclick="changeSection(this)" >Action</a>
+                              </div>
+                            
+                            
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="8" onclick="changeSection(this)" >Condition</a>
+                              </div>
+                            
+                            
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="9" onclick="changeSection(this)" >Basic</a>
                               </div>
                             </div>
                           </div>
                           <div class="card">
                             <div class="acord-header" id="headingOne">
                               <h2 class="mb-0 text-center">
-                                <button class="btn btn-link text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                                  Condiction to Basic
+                                <button class="btn btn-link lv text-white btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                  Bonus
                                 </button>
                               </h2>
                             </div>
                         
                             <div id="collapsefour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                              <div class="acord-body">
-                                <a href="#content" data-section="6" onclick="changeSection(this)">Link a x cosa</a>
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="10" onclick="changeSection(this)">Bonus 0</a>
+                              </div>
+                            
+                            
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="11" onclick="changeSection(this)">Bonus A</a>
+                              </div>
+                           
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="12" onclick="changeSection(this)">Bonus C</a>
+                              </div>
+                            
+                              <div class="acord-body lv">
+                                <a href="#content" data-section="13" onclick="changeSection(this)">Bonus B</a>
                               </div>
                             </div>
+
+
+
                           </div>
                           
                       </div>

@@ -18,14 +18,13 @@
   --bgfooter: url(../img/negroperron.png);
   /* Yisus Variables */
   --bgMainHeader: url(../img/city.png);
-  --solidOne: linear-gradient(
-    to right,
-    rgb(0, 0, 0, 0.95),
-    rgb(30, 39, 46),
-    rgb(0, 0, 0, 0.95)
+  --solidOne: background-color(
+    #1a1a1a
   );
   --solidtwo: rgb(43, 55, 65);
 }
+
+@import "core/bootstrap/rfs";
 
 body{
   background-color: #0b0b0b !important;
@@ -61,6 +60,14 @@ body{
 .azonix {
   font-family: "azonix";
   src: var(--azonix);
+}
+
+
+/* text bar*/
+.lv {
+  font-family: "azonix";
+  src: var(--azonix);
+  text-align: center !important;
 }
 
 .loader {
@@ -144,7 +151,7 @@ text-indent: 30px;
 }
 
 .acord-header {
-  background: var(--solidOne);
+  background: #212121;
 }
 .acord-header .btn-link {
   color: #fff !important;
@@ -199,6 +206,11 @@ footer {
   text-indent: 30px;
 }
 
+#howto p{
+  text-align: center !important;
+  text-indent: 30px;
+}
+
 p{
   text-align: justify;
   text-indent: 30px;
@@ -219,3 +231,4 @@ p{
   font-weight: bold;
   text-align: center;
 }
+

@@ -57,7 +57,7 @@ const sections = Planes.map((plan) => {
       VideoContainer.appendChild(videoDiv);
       const videoDesc = document.createElement("p"); //Creo la descripcion del video
       videoDesc.innerHTML = video.description;
-      VideoContainer.appendChild(videoDesc);
+      VideoContainer.appendChild(videoDesc);   
       return VideoContainer; //Y retorno todo el contenedor ya creado
     });
     videos.map((video) => element.appendChild(video)); //Ahora por cada video que se haya creado lo inserto en el elemento proncipal de la seccion
