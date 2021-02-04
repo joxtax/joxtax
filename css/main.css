@@ -29,6 +29,11 @@
   src: url(../fuentes/Azonix.otf);
 }
 
+.azonix {
+  font-family: "azonix";
+  src: var(--azonix);
+}
+
 .fija {
   width: 100%;
   left: 0;
@@ -77,10 +82,7 @@
   background: linear-gradient(to bottom, white, rgb(220, 220, 220));
 }
 
-.azonix {
-  font-family: "azonix";
-  src: var(--azonix);
-}
+
 
 .naranja {
   color: #ff3d00 !important;
