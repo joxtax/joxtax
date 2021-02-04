@@ -27,7 +27,7 @@ const Planes = [
       {
         name: "Contracciones Musculares",
         description:
-          "<p class='sangria text-justify'>Para poder comprender el funcionamiento del programa <strong class='azonix'>0 to <span class='deep-orange-text'>basic</span></strong> es necesario describir las diferentes contracciones musculares que forman parte fundamental de cada ejercicio planteado. <p> <br><strong class='azonix'>Contracción <span class='deep-orange-text'>excéntrica</span></strong>: Sucede cuando la longitud del músculo aumenta mientras se desarrolla la tensión. (Parte descendente) <br/> <img src='./img/excentrica.jpg' alt='logo' style='width: 50%; background-position: center;'> <br/>  <b>Ejemplo:</b> El descenso de una dominada. Esta fase controla la velocidad, sirviendo como mecanismo de freno. <br/>  <br/>    <strong class='azonix'>Contracción <span class='deep-orange-text'>concéntrica</span></strong>: Sucede cuando la longitud del músculo disminuye mientras se desarrolla la tensión. (Parte ascendente)    <br/> <img src='./img/concentrica.jpg' alt='logo' style='width: 50%; background-position: center;'>   <br/> <b>Ejemplo:</b> El movimiento de una posición colgante a la parte superior de una dominada es una contracción concéntrica.   <br/>      <br/>  <strong class='azonix'>Contracción <span class='deep-orange-text'>Isométrica</span></strong>: sucede cuando no se producen cambios en la longitud del músculo durante el desarrollo de la tensión muscular. Son pausas sin movimientos resultantes.      <br/> <img src='./img/isometrica.jpg' alt='logo' style='width: 50%; background-position: center;'>  <br/>  <b>Ejemplo:</b> Mantener a 90º la flexión de codo en una dominada. ",
+          "<p class='sangria text-justify'>Para poder comprender el funcionamiento del programa <strong class='azonix'>0 to <span class='deep-orange-text'>basic</span></strong> es necesario describir las diferentes contracciones musculares que forman parte fundamental de cada ejercicio planteado. <p> <br><strong class='azonix'>Contracción <span class='deep-orange-text'>excéntrica</span></strong>: Sucede cuando la longitud del músculo aumenta mientras se desarrolla la tensión. (Parte descendente) <br/> <img src='./img/excentrica.JPG' alt='logo' style='width: 50%; background-position: center;'> <br/>  <b>Ejemplo:</b> El descenso de una dominada. Esta fase controla la velocidad, sirviendo como mecanismo de freno. <br/>  <br/>    <strong class='azonix'>Contracción <span class='deep-orange-text'>concéntrica</span></strong>: Sucede cuando la longitud del músculo disminuye mientras se desarrolla la tensión. (Parte ascendente)    <br/> <img src='./img/concentrica.JPG' alt='logo' style='width: 50%; background-position: center;'>   <br/> <b>Ejemplo:</b> El movimiento de una posición colgante a la parte superior de una dominada es una contracción concéntrica.   <br/>      <br/>  <strong class='azonix'>Contracción <span class='deep-orange-text'>Isométrica</span></strong>: sucede cuando no se producen cambios en la longitud del músculo durante el desarrollo de la tensión muscular. Son pausas sin movimientos resultantes.      <br/> <img src='./img/isometrica.JPG' alt='logo' style='width: 50%; background-position: center;'>  <br/>  <b>Ejemplo:</b> Mantener a 90º la flexión de codo en una dominada. ",
       },
       {
         name: "Modificaciones en los ejercicios",
@@ -133,7 +133,7 @@ const Planes = [
         description:
           "Con el fin de preparar el cuerpo de manera segura para las próximas demandas de entrenamiento, es fundamental realizar un calentamiento completo que aborde todas las articulaciones principales que se utilizarán. Al elegir movimientos que abordan múltiples músculos a la vez, puede reducir el número total de ejercicios de movilidad necesarios para poner en marcha el cuerpo, ahorrando un tiempo precioso. Cuando se hace concienzudamente, el proceso no debe llevar más de 10 a 15 minutos. Esto debería ser suficiente para producir un aumento moderado en el rango de movimiento y el flujo sanguíneo. Además, use este tiempo para prepararse mentalmente para las próximas sesiones de entrenamiento. <hr> <p>Se recomienda realizar los estiramientos dinámicamente, en lugar de realizar estiramientos sostenidos, antes del entrenamiento. Se ha demostrado constantemente que los estiramientos estáticos prolongados disminuyen la producción de potencia en el músculo que trabaja. En términos prácticos, esto se traduce en una reducción en el número de repeticiones que se pueden realizar por serie. </p>  <hr> <iframe class='embed-responsive embed-responsive-16by9 mt-5' width='879' height='494' src='https://www.youtube.com/embed/pIn37roXXSI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
           image: true,
-          imgUrl: './img/calentamiento.jpg'
+          imgUrl: './img/calentamiento.JPG'
         },
 
         {
@@ -146,7 +146,7 @@ const Planes = [
           description:
             "Cuando hacemos ejercicio, los músculos se contraen, que significa que se acortan y, después, se vuelven a estirar. Este movimiento de acortarse y estirarse provoca que se fatigue, por eso es importante estirar después del ejercicio. Liberar tensión, relajar los músculos una vez finalizada la sesión para ayudar al cuerpo a volver a la calma. Esto se consigue con estiramientos pasivos. <br> <hr> (Resaltaré que decidí poner todo en español así que no juzguen mi intento de encontrar los nombres xd) <hr>   <iframe class='embed-responsive embed-responsive-16by9 mt-5' width='879' height='494' src=' https://www.youtube.com/embed/FPsqVnDXi_4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>             ",
             image: true,
-            imgUrl: './img/estiramiento.jpg'
+            imgUrl: './img/estiramiento.JPG'
           },
 
 
@@ -170,14 +170,14 @@ const Planes = [
         name: "Calendario",
         description: "Esta primera tabla enseña el programa semanal del nivel 0, como bien se explicó, repetir por mínimo 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) ",
         image: true,
-        imgUrl: './img/nivel0.jpg'
+        imgUrl: './img/nivel0.JPG'
 
       },
 
       {
         description: "<strong class='azonix deep-orange-text'>Semana Descargue:</strong>",
         image: true,
-        imgUrl: './img/nivel0d.jpg'
+        imgUrl: './img/nivel0d.JPG'
 
       },
       {
@@ -280,14 +280,14 @@ const Planes = [
         name:"Rutina A",
         description:"<iframe class='embed-responsive embed-responsive-16by9 mt-5' width='879' height='494' src='https://www.youtube.com/embed/4W8Yrhsfuis' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe> <hr>",
         image: true,
-        imgUrl: './img/bonusa.jpg', 
+        imgUrl: './img/bonusa.JPG', 
       },
 
       {
         name:"Rutina B",
         description:"<iframe class='embed-responsive embed-responsive-16by9 mt-5' width='879' height='494' src='https://www.youtube.com/embed/GlBnaSHvxu0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe> <hr>",
         image: true,
-        imgUrl: './img/bonusb.jpg', 
+        imgUrl: './img/bonusb.JPG', 
       },
 
     ],

@@ -82,6 +82,14 @@
   src: var(--azonix);
 }
 
+.naranja {
+  color: #ff3d00 !important;
+  font-weight: bold;
+  text-align: center;
+  font-family: "azonix";
+  src: var(--azonix);
+}
+
 .parallax {
   background: var(--bgsection);
   background-position: center;
@@ -116,10 +124,10 @@
 
 .cardOrange {
   background: var(--DegreeOrange) !important;
-  color: white !important;
+  color: white;
 }
 .card .card-header h5 button {
-  color: white !important;
+  color: white;
 }
 
 footer {
