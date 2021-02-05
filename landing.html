@@ -102,7 +102,7 @@
             </div>
 <div class="col-md-12 mt-5">
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AVncfNjYNRM" allowfullscreen="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_YUVPKl0wEA" allowfullscreen="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
             </div>
             </div>
         </div>
@@ -279,8 +279,9 @@
                         <hr>
                         <p> <b><i class="fas fa-check-square"></i> ¡Sección <strong class="azonix deep-orange-text">BONUS</strong> sorpresa!</b></p>
                         <ul class="list-group list-group-flush">
-                        <li class="list-group-item stylish-color-dark text-center text-white"><s>Todo por 20$</s><br>Sólo por esta semana 15$ <br> ¡Contáctame y obten mi número!</li>
+                        <li class="list-group-item stylish-color-dark text-center text-white"> <h6 class="card-title"><s>Todo por 20$</s><br><strong>Sólo por esta semana 15$</strong><br><em>Hasta el 12 de febrero</em></h6></li>
                          </ul>
+                         <div class="card-footer text-center text-muted">Pago móvil, Paypal y Pesos Colombianos</div>
                     </div>
                     </div>
                 </div>
@@ -290,37 +291,21 @@
                 <div class="card-body">
                     <h3 class="text-center dark-text"><b>Contáctame</b></h3>
                     <hr>
-                    <form id="contact" onsubmit="sendEmail(this)">
-                        <div class="md-form">
-                            <i class="fas fa-user prefix dark-text"></i>
-                            <input type="text" id="nombre" class="form-control" name="nombre">
-                            <label for="nombre">Nombre:</label>
-                        </div>
-
-                        <div class="md-form">
-                            <i class="fas fa-envelope prefix dark-text"></i>
-                            <input type="email" id="email" class="form-control" name="email">
-                            <label for="email">Email:</label>
-                        </div>
-
-                        <div class="md-form">
-                            <i class="far fa-comment-alt prefix dark-text"></i>
-                            <textarea id="texto" class="md-textarea" name="mensaje"></textarea>
-                            <label for="texto">Ingresa tu mensaje:</label>
-                        </div>
-                        <div class="text-center">
-                            <button class="btn btn-dark" onclick="">Enviar</button>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                        <a href="https://api.whatsapp.com/send?phone=584265549163" target="_blank"   
-                        class="btn btn-dark btn-md"> 
-                        <div>
-                          <i class="fab fa-whatsapp fa-fw fa-lg mr-1 green-text"> </i>Contáctame al whatsapp</div>
-                        </a>
-                        <i class=""></i>
-                    </form>               
-                        </div>
+                    <div>
+                      <img loading="lazy" src="./img/0basic.png" alt="imagen del producto" class="img-fluid  d-sm-block"> <hr>
+              </div>
+                    <div class="text-center">
+                    <a href="https://api.whatsapp.com/send?phone=584265549163" target="_blank"   
+                    class="btn btn-dark btn-md">
+                    <div>
+                      <i class="fab fa-whatsapp fa-fw fa-lg mr-1 green-text"> </i>Solo whatsapp</div>
+                    </a>
+                    <i class=""></i>
+                </form>               
+                    </div>
+                        </div> 
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -374,21 +359,6 @@
 speed: 500,
 speedAsDuration: true
 });
-</script>
-<script>
-    function sendEmail(e){
-      console.log(e)
-    e.preventDefault;
-    const name = document.getElementById('nombre');
-    const email = document.getElementById('email');
-    const texto = document.getElementById('texto');
-    const mensaje = `De: ${name.value} \n Correo: ${email.value} \n Mensaje: ${texto.value}`;
-    var mailToLink = "mailto:joxtax01@gmail.com?body=" + encodeURIComponent(mensaje);
-    console.log(mensaje)
-    window.open(mailToLink);
-    alert('Mensaje enviado');
-
-  }
 </script>
 </body>
 </html>
