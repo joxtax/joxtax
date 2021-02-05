@@ -2,8 +2,8 @@ simplyCountdown('#cuenta', {
 	year: 2021, // required
 	month: 2, // required
 	day: 5, // required
-	hours: 14, // Default is 0 [0-23] integer
-	minutes: 0, // Default is 0 [0-59] integer
+	hours: 11, // Default is 0 [0-23] integer
+	minutes: 1, // Default is 0 [0-59] integer
 	seconds: 0, // Default is 0 [0-59] integer
 	words: { //words displayed into the countdown
 		days: 'Día',
@@ -18,7 +18,12 @@ simplyCountdown('#cuenta', {
 	// in case of inline set to false
 	enableUtc: true, //Use UTC as default
 	onEnd: function() {
-		document.getElementById('portada').classList.add('oculta');
+		const count = document.getElementById('portada');
+		count.innerHTML = "<h1 class='azonix display-3 deep-orange-text'>Bienvenidos</h1>";
+		setTimeout(()=>{
+			document.getElementById('portada').classList.add('oculta');
+		}, 3000);
+
 		return; 
 	}, //Callback on countdown end, put your own function here
 	refresh: 1000, // default refresh every 1s
