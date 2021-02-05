@@ -19,10 +19,10 @@ simplyCountdown('#cuenta', {
 	enableUtc: true, //Use UTC as default
 	onEnd: function() {
 		const count = document.getElementById('portada');
-		count.innerHTML = "<h1 class='azonix display-3 deep-orange-text'>Bienvenidos</h1>";
+		count.innerHTML = "<h1 class='azonix  deep-orange-text' style='font-size:300%;'>Bienvenidos</h1>";
 		setTimeout(()=>{
 			document.getElementById('portada').classList.add('oculta');
-		}, 3000);
+		}, 10000);
 
 		return; 
 	}, //Callback on countdown end, put your own function here
