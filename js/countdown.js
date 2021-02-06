@@ -2,8 +2,8 @@ simplyCountdown('#cuenta', {
 	year: 2021, // required
 	month: 2, // required
 	day: 5, // required
-	hours: 11, // Default is 0 [0-23] integer
-	minutes: 1, // Default is 0 [0-59] integer
+	hours: 15, // Default is 0 [0-23] integer
+	minutes: 0, // Default is 0 [0-59] integer
 	seconds: 0, // Default is 0 [0-59] integer
 	words: { //words displayed into the countdown
 		days: 'Día',
@@ -22,7 +22,7 @@ simplyCountdown('#cuenta', {
 		count.innerHTML = "<h1 class='azonix  deep-orange-text' style='font-size:300%;'>Bienvenidos</h1>";
 		setTimeout(()=>{
 			document.getElementById('portada').classList.add('oculta');
-		}, 10000);
+		}, 3000);
 
 		return; 
 	}, //Callback on countdown end, put your own function here
