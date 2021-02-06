@@ -64,7 +64,7 @@ const Planes = [
       },
       {
         name: "ACUMULACIÓN",
-        description: "El entrenamiento de acumulación es una forma divertida de aumentar progresivamente la intensidad del entrenamiento en una determinada limitación de tiempo. El concepto es lograr la mayor cantidad de repeticiones de movimiento con el tempo específico de un ejercicio dentro de un período de tiempo determinado. Es fundamental intentar superar el número total de repeticiones (o segundos) anterior a la última sesión para seguir ganando fuerza y construir músculo. Controle su ritmo, quemar en las primeras series no es una buena idea. En general detenerse ~ 2-3 repeticiones antes de fallar (o varios segundos con respecto a las sujeciones cronometradas) permitirá suficiente energía para completar las series posteriores. Recuerde, el volumen general es más importante que una o dos series de repeticiones altas. La primera semana de un protocolo de acumulación sirve para establecer una línea de base para la cual el objetivo es superar la semana siguiente.  <br> <br>   <strong class='azonix deep-orange-text'>Ejemplo:</strong>      <br> <br>  <strong class='azonix deep-orange-text'>Semana 1:</strong> Elevación escap. colgado: 4sets de 30s = 2mins total    <br> <br>   <strong class='azonix deep-orange-text'>Semana 2:</strong>   Elevación escap. colgado: 4sets de 35s = 2.3mins total     <br> <br>   <strong class='azonix deep-orange-text'>Semana 3:</strong> Elevación escap. colgado: 5sets de 30s = 2.5mins total  <br> <br>   <strong class='azonix deep-orange-text'>Semana 4:</strong> Elevación escap. colgado: 6 sets de 30s = 3mins total                                    <br> <hr> <br>   <strong class='azonix deep-orange-text'>Semana 1:</strong>  Flexiones en pica: 25 total reps    <br> <br>   <strong class='azonix deep-orange-text'>Semana 2:</strong>   Flexiones en pica: 28 total reps      <br> <br>   <strong class='azonix deep-orange-text'>Semana 3:</strong> Flexiones en pica: 28 total reps   <br> <br>   <strong class='azonix deep-orange-text'>Semana 4:</strong> Flexiones en pica: 33 total reps                               ",
+        description: "El entrenamiento de acumulación es una forma divertida de aumentar progresivamente la intensidad del entrenamiento en una determinada limitación de tiempo. El concepto es lograr la mayor cantidad de repeticiones de movimiento con el tempo específico de un ejercicio dentro de un período de tiempo determinado. Es fundamental intentar superar el número total de repeticiones (o segundos) anterior a la última sesión para seguir ganando fuerza y construir músculo. Controle su ritmo, quemar en las primeras series no es una buena idea. En general detenerse ~ 2-3 repeticiones antes de fallar (o varios segundos con respecto a las sujeciones cronometradas) permitirá suficiente energía para completar las series posteriores. Recuerde, el volumen general es más importante que una o dos series de repeticiones altas. La primera semana de un protocolo de acumulación sirve para establecer una línea de base para la cual el objetivo es superar la semana siguiente.  <br> <br>   <strong class='azonix deep-orange-text'>Ejemplo:</strong>      <br> <br>  <strong class='azonix deep-orange-text'>Semana 1:</strong> Depresión escap. colgado: 4sets de 30s = 2mins total    <br> <br>   <strong class='azonix deep-orange-text'>Semana 2:</strong>   Depresión escap. colgado: 4sets de 35s = 2.3mins total     <br> <br>   <strong class='azonix deep-orange-text'>Semana 3:</strong> Depresión escap. colgado: 5sets de 30s = 2.5mins total  <br> <br>   <strong class='azonix deep-orange-text'>Semana 4:</strong> Depresión escap. colgado: 6 sets de 30s = 3mins total                                    <br> <hr> <br>   <strong class='azonix deep-orange-text'>Semana 1:</strong>  Flexiones en pica: 25 total reps    <br> <br>   <strong class='azonix deep-orange-text'>Semana 2:</strong>   Flexiones en pica: 28 total reps      <br> <br>   <strong class='azonix deep-orange-text'>Semana 3:</strong> Flexiones en pica: 28 total reps   <br> <br>   <strong class='azonix deep-orange-text'>Semana 4:</strong> Flexiones en pica: 33 total reps                               ",
       },
       {
         name: "Abajo!",
@@ -113,7 +113,7 @@ const Planes = [
     videos: [
       {
         name: "cómo moverte",
-        url: "https://www.youtube.com/embed/sw_qH2IymP4",
+        url: "https://www.youtube.com/embed/fZDjvuudo4w",
         description: "En este vídeo te explicaré movimientos importantes del cuerpo a la hora de hacer cualquier ejercicio o estímulo. En base a ellos se desarrollará buena técnica y conciencia en los movimientos",
       },
     ],
@@ -289,6 +289,10 @@ const Planes = [
         image: true,
         imgUrl: './img/bonusb.JPG', 
       },
+
+      {
+        description: "Se ha otorgado un rango de series y segundos por ejercicios. Elija uno por donde arrancar para adaptarse y aprender. Parta de allí para aumentar series, segundos o hasta implementar su propia rutina con sus movimientos favoritos."
+      }
 
     ],
   },
