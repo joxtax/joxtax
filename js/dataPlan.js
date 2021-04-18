@@ -163,25 +163,23 @@ const Planes = [
     article: true,
     articles: [
       {
-        description: "Este primer nivel se centra en la preparación de los principales movimientos multiarticulares, siguiendo un método de entrenamiento distribuido en cargas iguales para todo el cuerpo o mejor conocido como “Full Body” (cuerpo completo) por cada sesión de entrenamiento. Lo que significa para un comienzo una intensidad moderada con volúmenes moderados para garantizar que pueda ser completada la rutina, permitir al cuerpo aprender, descansar lo suficiente, trabajar la técnica correcta y crear el hábito exitosamente. Escoge la progresión adecuada para ti y parte desde allí para aplicar los principios de la sobre carga progresiva. Cada sesión debe ser más desafiante que la anterior para darle un buen estímulo a los músculos, tome en cuenta todo lo explicado en el apartado “Conocimientos básicos” “Cómo aplicar la sobrecarga progresiva” y aplíquelos.     <hr> <strong class='azonix deep-orange-text'>Control del progreso: <a href='./Registro-progresivo-Nivel-0.xlsx'> Planilla excel</a></strong>                ",
+        description: "Este primer nivel se centra en la preparación de los principales movimientos multiarticulares, siguiendo un método de entrenamiento distribuido en cargas iguales para todo el cuerpo o mejor conocido como “Full Body” (cuerpo completo) por cada sesión de entrenamiento. Lo que significa para un comienzo una intensidad moderada con volúmenes moderados para garantizar que pueda ser completada la rutina, permitir al cuerpo aprender, descansar lo suficiente, trabajar la técnica correcta y crear el hábito exitosamente. Escoge la progresión adecuada para ti y parte desde allí para aplicar los principios de la sobre carga progresiva. Cada sesión debe ser más desafiante que la anterior para darle un buen estímulo a los músculos, tome en cuenta todo lo explicado en el apartado “Conocimientos básicos” “Cómo aplicar la sobrecarga progresiva” y aplíquelos.     <hr> <strong class='azonix deep-orange-text'>Control del progreso: <a href='./Registro-nivel0.xlsx'> Planilla excel</a></strong>    <hr> <strong class='azonix deep-orange-text'>Listo para imprimir: <a href='./perfil-nivel0.pdf'> PDF Perfil</a></strong>            ",
       },
 
       {
         name: "Calendario",
         description: "Esta primera tabla enseña el programa semanal del nivel 0, como bien se explicó, repetir por mínimo 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) ",
         image: true,
-        imgUrl: './img/nivel0.JPG'
+        imgUrl: './img/Nivel0program.PNG'
 
       },
 
       {
-        description: "<strong class='azonix deep-orange-text'>Semana Descargue:</strong>",
-        image: true,
-        imgUrl: './img/nivel0d.JPG'
+        description: "<strong class='azonix deep-orange-text'>Recomendaciones:<strong>",      
 
       },
       {
-        description: "Se recomienda distribuir los días de entreno con un día de descanso en medio, un buen ejemplo sería (lunes-miércoles-viernes), (martes-jueves-sábado) o (lunes-miércoles-sábado) para distribuir mejor la frecuencia. Adapte el mejor estilo para usted y sea conciente de elegir la intensidad adecuada para comenzar un nivel. Sea honesto y abandone el ego, ya que hacerlo permitirá mejoras continuas mensurables. Elija una progresión / Intensidad que permita lograr las series /repeticiones / tempos mínimos prescritos en el programa mientras se desafía. Si el movimiento es demasiado fácil o difícil, realice los cambios necesarios en la postura e intensidad. La elección de la intensidad adecuada es esencial para la forma de rango de movimiento completo y poder seguir el programa según lo previsto. ",
+        description: "Se recomienda distribuir los días de entreno con un día de descanso en medio, un buen ejemplo sería (lunes-miércoles-viernes), (martes-jueves-sábado) o (lunes-miércoles-sábado) para distribuir mejor la frecuencia. Adapte el mejor estilo para usted y sea conciente de elegir la intensidad adecuada para comenzar un nivel. Sea honesto y abandone el ego, ya que hacerlo permitirá mejoras continuas mensurables. Elija una progresión/Intensidad que permita lograr las series/repeticiones en los tempos mínimos prescritos en el programa mientras se desafía. Si el movimiento es demasiado fácil o difícil, realice los cambios necesarios en la postura e intensidad. La elección de la intensidad adecuada es esencial para la forma de rango de movimiento completo y poder seguir el programa según lo previsto. ",
       },
 
       {
@@ -210,61 +208,75 @@ const Planes = [
   },
 
 
-  // Nivel ACTION
+  // Nivel Intro
   {
-    name: "Nivel Action",
+    name: "Nivel Intro",
     id: "action",
     article: true,
     articles: [
       {
-        name: "Subiendo..",
-        description: "En realización de video",
-        image: true,
-        imgUrl: './img/construccion.jpg',
+      description: "¡¡Felicitaciones!! has avanzado al nivel Intro en donde nos centraremos en una fase de construcción muscular partiendo de la preparación superada en el nivel 0. Siguiendo el método de entrenamiento Full Body, así, ya aprendido los movimientos principales y compuestos del anterior nivel es tiempo de aumentar las intensidades y trabajar en un rango de repeticiones que nos ¡Quemen los músculos! y estemos cercanos al fallo. Recuerda seguir el descanso activo para evitar lesiones, reforzar las articulaciones y optimizar el trabajo. Trabaja siempre con la mejor técnica posible y en los ejercicios que sientas el músculo trabajar. Escoge la progresión adecuada para ti y parte desde allí para aplicar los principios de la sobre carga progresiva. Cada sesión debe ser más desafiante que la anterior para darle un buen estímulo a los músculos, tome en cuenta todo lo explicado en el apartado “Conocimientos básicos” “Cómo aplicar la sobrecarga progresiva” y aplíquelos.     <hr> <strong class='azonix deep-orange-text'>Control del progreso: <a href='./Registro-nivelintro.xlsx'> Planilla excel</a></strong>    <hr> <strong class='azonix deep-orange-text'>Listo para imprimir: <a href='./Perfil-intro.pdf'> PDF Perfil</a></strong>            ",
       },
-    
-    ],
-  },
-/// Fin Action
 
-/// Nivel Condition
-  {
-    name: "Nivel Condition",
-    id: "action",
-    article: true,
-    articles: [
       {
-        name: "Subiendo..",
-        description: "En realización de video",
+        name: "Calendario",
+        description: "Esta segunda tabla enseña el programa semanal del nivel intro, repetir 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) ",
         image: true,
-        imgUrl: './img/construccion.jpg',
+        imgUrl: './img/IntroProgram.JPG'
+
       },
+
+      {
+        description: "<strong class='azonix deep-orange-text'>Recomendaciones:<strong>",      
+
+      },
+      {
+        description: "Se recomienda distribuir los días de entreno con un día de descanso en medio, un buen ejemplo sería (lunes-miércoles-viernes), (martes-jueves-sábado) o (lunes-miércoles-sábado) para distribuir mejor la frecuencia. Adapte el mejor estilo para usted y sea conciente de elegir la intensidad adecuada para comenzar un nivel. Sea honesto y abandone el ego, ya que hacerlo permitirá mejoras continuas mensurables. Elija una progresión/Intensidad que permita lograr las series/repeticiones en los tempos mínimos prescritos en el programa mientras se desafía. Si el movimiento es demasiado fácil o difícil, realice los cambios necesarios en la postura e intensidad. La elección de la intensidad adecuada es esencial para la forma de rango de movimiento completo y poder seguir el programa según lo previsto. ",
+      },
+
+      
     
     ],
   },
+/// Fin Intro
 
-  //// FIN Condition
-
-  /// Nivel Basic
-
+/// Nivel Basic
   {
     name: "Nivel Basic",
     id: "action",
     article: true,
     articles: [
       {
-        name: "Subiendo..",
-        description: "En realización de video",
-        image: true,
-        imgUrl: './img/construccion.jpg',
-      },
+        description: "¡¡CRACK has avanzado al nivel Basic!!. En este último nivel lo dividiremos en dos versiones de prioridad: Brazos(arm) o Pierna(leg) Siéntete libre de elegir que músculo deseas darle prioridad. Con unas pequeñas modificaciones en los ejercicios encontrarás dos diferencias en dos rutinas. Recuerda seguir el descanso activo para evitar lesiones, reforzar las articulaciones y optimizar el trabajo. Trabaja siempre con la mejor técnica posible y en los ejercicios que sientas el músculo trabajar. Escoge la progresión adecuada para ti y parte desde allí para aplicar los principios de la sobre carga progresiva. Cada sesión debe ser más desafiante que la anterior para darle un buen estímulo a los músculos, tome en cuenta todo lo explicado en el apartado “Conocimientos básicos” “Cómo aplicar la sobrecarga progresiva” y aplíquelos.     <hr> <strong class='azonix deep-orange-text'>Control del progreso Basic-arm:<hr> <a href='./Registro-basic-arm.xlsx'> Planilla excel arm</a></strong> <hr> <strong class='azonix deep-orange-text'> <a href='./Registro-basic-leg.xlsx'> Planilla excel leg</a></strong>   <hr> <strong class='azonix deep-orange-text'>Listo para imprimir: <hr> <a href='./perfil-basic-arm.pdf'> PDF Perfil-basic-arm</a></strong>  <hr> <strong class='azonix deep-orange-text'><a href='./perfil-basic-leg.pdf'> PDF Perfil-basic-leg</a></strong>          ",
+        },
+
+        {
+          name: "Calendario",
+          description:""
+        },
+
+        {
+          name: "Basic arm",
+          description: "Esta tabla enseña el programa semanal del nivel Basic Arm enfocado a brazos, repetir 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) <hr> ",
+          image: true,
+          imgUrl: './img/Basic-arm.PNG'
+  
+        },
+
+        {
+          name: "Basic leg",
+          description: "Esta última tabla enseña el programa semanal del nivel Basic Leg enfocado a piernas, repetir 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) ",
+          image: true,
+          imgUrl: './img/Basic-leg.PNG'
+  
+        },
     
     ],
   },
 
-  /// Fin Basic
+  //// FIN Basic
 
-  /// BONUS
+  /// BONUS 0
   {
     name: "Nivel 0",
     id: "0",
@@ -298,24 +310,42 @@ const Planes = [
   },
 //// FIN BONUS 0
 
-/// BONUS ACTION
+/// BONUS Intro
 {
-  name: "Bonus Action",
+  name: "Bonus Intro",
   article: true,
   articles: [
     {
-      name: "Subiendo..",
-      description: "En realización de video",
-      image: true,
-      imgUrl: './img/construccion.jpg',
-    },
-  ],
-},
-///Fin bonus action
+      name: "Control del descanso activo",
+      description: "En esta tabla para imprimir encontrarás en orden los datos para ser llenados y llevar tu control de mejoras en cada sesión. <hr> <hr> <strong class='azonix deep-orange-text'>Listo para imprimir: <a href='./control-descanso-act.pdf'> PDF Perfil</a></strong>",
+      
 
-/// BONUS CONDITION
+    },
+    {
+      name:"Estiramientos Y Movilidad",
+      description:"Puedes repetir cuantas veces desees un estiramiento con la mejor técnica posible y paciencia. Los ejercicios estáticos cuentan por segundos y los dinámicos por repeticiones.",
+      image: true,
+      imgUrl: './img/movilidad.JPG', 
+    },
+    {
+      name:"Reforzamiento",
+      description:"Calienta muy bien las muñequecas y el cuerpo antes de empezar el reforzamiento, recuerda tener los brazos bloqueados para fortalecer el trabajo de las escápulas.",
+      image: true,
+      imgUrl: './img/Reforzamiento.JPG', 
+    },
+    {
+      name:"Resistencia",
+      description:"Enfócate en mejorar tu tiempo o vueltas en cada semana y sesión.",
+      image: true,
+      imgUrl: './img/Resistencia.JPG', 
+    },
+  ],
+},
+///Fin bonus Intro
+
+/// BONUS Basic
 {
-  name: "Bonus Condition",
+  name: "Bonus Basic",
   article: true,
   articles: [
     {
@@ -326,7 +356,7 @@ const Planes = [
     },
   ],
 },
-//// FIN BONUS CONDITION
+//// FIN BONUS Basic
 
 //// BONUS Basic
 
