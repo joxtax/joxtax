@@ -170,7 +170,7 @@ const Planes = [
         name: "Calendario",
         description: "Esta primera tabla enseña el programa semanal del nivel 0, como bien se explicó, repetir por mínimo 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) ",
         image: true,
-        imgUrl: './img/Nivel0program.PNG'
+        imgUrl: './img/Nivel0program.png'
 
       },
 
@@ -259,7 +259,7 @@ const Planes = [
           name: "Basic arm",
           description: "Esta tabla enseña el programa semanal del nivel Basic Arm enfocado a brazos, repetir 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) <hr> ",
           image: true,
-          imgUrl: './img/Basic-arm.PNG'
+          imgUrl: './img/Basic-arm.png'
   
         },
 
@@ -267,7 +267,7 @@ const Planes = [
           name: "Basic leg",
           description: "Esta última tabla enseña el programa semanal del nivel Basic Leg enfocado a piernas, repetir 4 semanas la planificación para optar pasar a la descarga o seguir otra(s) semana(s) ",
           image: true,
-          imgUrl: './img/Basic-leg.PNG'
+          imgUrl: './img/Basic-leg.png'
   
         },
     
